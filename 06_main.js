@@ -18,295 +18,7 @@ $("document").ready(function() {
             intro,
             instructions,
 
-            
-            // COND 3(what-comp)
-
-            //sentence 3
-            What6, // first screen
-            COMP8,
-            INF16,
-
-            //sentence1
-            What2,
-            COMP2,
-            INF4,
-
-            /*
-            // sentence 5
-            What10,
-            COMP14,
-            INF28,
-
-            //sentence 4
-            What8,
-            COMP11,
-            INF22,
-
-            //sentence2
-            What4,
-            COMP5,
-            INF10,
-
-            //sentence 6
-            What12,
-            COMP17,
-            INF34,
-
-            // FILLER??
-            // 54
-            Filler_What14,
-            Filler_Answer54,
-            Filler_INF54,
-
-            //20
-            Filler_HowMany6,
-            Filler_Answer20,
-            Filler_INF20,
-
-            //17
-            Filler_Polar5,
-            Filler_Answer17,
-            Filler_INF17,
-
-            // 23
-            Filler_Did5,
-            Filler_Answer23,
-            Filler_INF23,
-
-            //14
-            Filler_HowMany4,
-            Filler_Answer14,
-            Filler_INF14,
-
-            //55
-            Filler_Did13,
-            Filler_Answer55,
-            Filler_INF55,
-
-            //21
-            Filler_What5,
-            Filler_Answer21,
-            Filler_INF21,
-
-            //44
-            Filler_HowMany12,
-            Filler_Answer44,
-            Filler_INF44,
-
-            //50
-            Filler_Polar14,
-            Filler_Answer50,
-            Filler_INF50,
-
-            //13
-            Filler_HowMany3,
-            Filler_Answer13,
-            Filler_INF13,
-
-            //66
-            Filler_Polar18,
-            Filler_Answer66,
-            Filler_INF66,
-
-            //8
-            Filler_Did2,
-            Filler_Answer8,
-            Filler_INF8,
-
-
-
-
-            // COND 4 (WHAT SUP)
-            //sentence 1
-            What1, // first screen               // no next button
-            SUP2,
-            INF3,
-
-
-            //sentence4
-            What7,
-            SUP11,
-            INF21,
-
-            // sentence 3
-            What5,
-            SUP8,
-            INF15,
-
-            //sentence 6
-            What11,
-            SUP17,
-            INF33,
-
-            //sentence 5
-            What9,
-            SUP14,
-            INF27,
-
-            //sentence 2
-            What3,
-            SUP5,
-            INF9,
-
-            // FILLERS??
-            // 51
-            Filler_HowMany13,
-            Filler_Answer51,
-            Filler_INF51,
-
-            //25
-            Filler_Polar7,
-            Filler_Answer25,
-            Filler_INF25,
-
-            //27
-            Filler_HowMany7,
-            Filler_Answer27,
-            Filler_INF27,
-
-            // 11
-            Filler_What3,
-            Filler_Answer11,
-            Filler_INF11,
-
-            //64
-            Filler_Did16,
-            Filler_Answer64,
-            Filler_INF64,
-
-            //31
-            Filler_Did7,
-            Filler_Answer31,
-            Filler_INF31,
-
-            //32
-            Filler_Did8,
-            Filler_Answer32,
-            Filler_INF32,
-
-            //67
-            Filler_HowMany17,
-            Filler_Answer67,
-            Filler_INF67,
-
-            //60
-            Filler_HowMany16,
-            Filler_Answer60,
-            Filler_INF60,
-
-            //49
-            Filler_Polar13,
-            Filler_Answer49,
-            Filler_INF49,
-
-            //6
-            Filler_HowMany2,
-            Filler_Answer6,
-            Filler_INF6,
-
-            //59
-            Filler_HowMany15,
-            Filler_Answer59,
-            Filler_INF59,
-
-
-            // COND 1 (polar comp)
-
-            //sentence 4
-            Polar8, // first screen
-            COMP10,
-            INF20,
-
-            //sentence6
-            Polar12,
-            COMP16,
-            INF32,
-
-            // sentence 1
-            Polar2,
-            COMP1,
-            INF2,
-            
-
-            //sentence 2                     // next doesn't work
-            Polar4,
-            COMP4,
-            INF8,
-
-            //sentence 3
-            Polar6,
-            COMP7,
-            INF14,
-
-            //sentence 5
-            Polar10,
-            COMP13,
-            INF26,
-
-
-            // FILLERS??
-             // 28
-             Filler_HowMany8,
-             Filler_Answer28,
-             Filler_INF28,
- 
-             //56
-             Filler_Did14,
-             Filler_Answer56,
-             Filler_INF56,
- 
-             //42
-             Filler_Polar12,
-             Filler_Answer42,
-             Filler_INF42,
- 
-             // 72
-             Filler_Did18,
-             Filler_Answer72,
-             Filler_INF72,
- 
-             //34
-             Filler_Polar10,
-             Filler_Answer34,
-             Filler_INF34,
- 
-             //37
-             Filler_What9,
-             Filler_Answer37,
-             Filler_INF37,
- 
-             //26
-             Filler_Polar8,
-             Filler_Answer26,
-             Filler_INF26,
- 
-             //18
-             Filler_Polar6,
-             Filler_Answer18,
-             Filler_INF18,
- 
-             //58
-             Filler_Polar16,
-             Filler_Answer58,
-             Filler_INF58,
- 
-             //41
-             Filler_Polar11,
-             Filler_Answer41,
-             Filler_INF41,
- 
-             //33
-             Filler_Polar9,
-             Filler_Answer33,
-             Filler_INF33,
- 
-             //70
-             Filler_HowMany18,
-             Filler_Answer70,
-             Filler_INF70,
-
-
-            // COND 5 (howmany comp)
+             // COND 5 (howmany comp)
 
             //sentence 6
             HowMany12, // first screen
@@ -402,6 +114,196 @@ $("document").ready(function() {
              Filler_What10,
              Filler_Answer38,
              Filler_INF38,
+
+             
+             // COND 6 (Howmany sup)
+             
+            //sentence 5
+            HowMany9, // first screen
+            SUP15,
+            INF29,
+
+            //sentence 3
+            HowMany5,
+            SUP9,
+            INF17,
+
+            // sentence 2
+            HowMany3,
+            SUP6,
+            INF11,
+
+            //sentence 1
+            HowMany1,
+            SUP3,
+            INF5,
+
+            //sentence 6
+            HowMany11,
+            SUP18,
+            INF35,
+
+            //sentence 4
+            HowMany7,
+            SUP12,
+            INF23,
+
+            // FILLERS??
+            
+             // 5
+             Filler_HowMany1,
+             Filler_Answer5,
+             Filler_INF5,
+ 
+             //47
+             Filler_Did11,
+             Filler_Answer47,
+             Filler_INF47,
+ 
+             //3
+             Filler_What1,
+             Filler_Answer3,
+             Filler_INF3,
+ 
+             // 52
+             Filler_HowMany14,
+             Filler_Answer52,
+             Filler_INF52,
+ 
+             //2
+             Filler_Polar2,
+             Filler_Answer2,
+             Filler_INF2,
+ 
+             //62
+             Filler_What16,
+             Filler_Answer62,
+             Filler_INF62,
+ 
+             //10
+             Filler_Polar4,
+             Filler_Answer10,
+             Filler_INF10,
+ 
+             //46
+             Filler_What12,
+             Filler_Answer46,
+             Filler_INF46,
+ 
+             //43
+             Filler_HowMany11,
+             Filler_Answer43,
+             Filler_INF43,
+ 
+             //12
+             Filler_What4,
+             Filler_Answer12,
+             Filler_INF12,
+ 
+             //29
+             Filler_What7,
+             Filler_Answer29,
+             Filler_INF29,
+ 
+             //57
+             Filler_Polar15,
+             Filler_Answer57,
+             Filler_INF57,
+            
+
+             // COND 4 (WHAT SUP)
+            //sentence 1
+            What1, // first screen               // no next button
+            SUP2,
+            INF3,
+
+
+            //sentence4
+            What7,
+            SUP11,
+            INF21,
+
+            // sentence 3
+            What5,
+            SUP8,
+            INF15,
+
+            //sentence 6
+            What11,
+            SUP17,
+            INF33,
+
+            //sentence 5
+            What9,
+            SUP14,
+            INF27,
+
+            //sentence 2
+            What3,
+            SUP5,
+            INF9,
+
+            // FILLERS??
+            // 51
+            Filler_HowMany13,
+            Filler_Answer51,
+            Filler_INF51,
+
+            //25
+            Filler_Polar7,
+            Filler_Answer25,
+            Filler_INF25,
+
+            //27
+            Filler_HowMany7,
+            Filler_Answer27,
+            Filler_INF27,
+
+            // 11
+            Filler_What3,
+            Filler_Answer11,
+            Filler_INF11,
+
+            //64
+            Filler_Did16,
+            Filler_Answer64,
+            Filler_INF64,
+
+            //31
+            Filler_Did7,
+            Filler_Answer31,
+            Filler_INF31,
+
+            //32
+            Filler_Did8,
+            Filler_Answer32,
+            Filler_INF32,
+
+            //67
+            Filler_HowMany17,
+            Filler_Answer67,
+            Filler_INF67,
+
+            //60
+            Filler_HowMany16,
+            Filler_Answer60,
+            Filler_INF60,
+
+            //49
+            Filler_Polar13,
+            Filler_Answer49,
+            Filler_INF49,
+
+            //6
+            Filler_HowMany2,
+            Filler_Answer6,
+            Filler_INF6,
+
+            //59
+            Filler_HowMany15,
+            Filler_Answer59,
+            Filler_INF59,
+
 
 
             // COND 2 (polar sup)
@@ -501,105 +403,201 @@ $("document").ready(function() {
              Filler_Answer9,
              Filler_INF9,
 
-
-
-
-
-
-             // COND 6 (Howmany sup)
-             
-            //sentence 5
-            HowMany9, // first screen
-            SUP15,
-            INF29,
+            
+            // COND 3(what-comp)
 
             //sentence 3
-            HowMany5,
-            SUP9,
-            INF17,
+            What6, // first screen
+            COMP8,
+            INF16,
 
-            // sentence 2
-            HowMany3,
-            SUP6,
-            INF11,
+            //sentence1
+            What2,
+            COMP2,
+            INF4,
 
-            //sentence 1
-            HowMany1,
-            SUP3,
-            INF5,
-
-            //sentence 6
-            HowMany11,
-            SUP18,
-            INF35,
+            
+            // sentence 5
+            What10,
+            COMP14,
+            INF28,
 
             //sentence 4
-            HowMany7,
-            SUP12,
-            INF23,
+            What8,
+            COMP11,
+            INF22,
+
+            //sentence2
+            What4,
+            COMP5,
+            INF10,
+
+            //sentence 6
+            What12,
+            COMP17,
+            INF34,
+
+            // FILLER??
+            // 54
+            Filler_What14,
+            Filler_Answer54,
+            Filler_INF54,
+
+            //20
+            Filler_HowMany6,
+            Filler_Answer20,
+            Filler_INF20,
+
+            //17
+            Filler_Polar5,
+            Filler_Answer17,
+            Filler_INF17,
+
+            // 23
+            Filler_Did5,
+            Filler_Answer23,
+            Filler_INF23,
+
+            //14
+            Filler_HowMany4,
+            Filler_Answer14,
+            Filler_INF14,
+
+            //55
+            Filler_Did13,
+            Filler_Answer55,
+            Filler_INF55,
+
+            //21
+            Filler_What5,
+            Filler_Answer21,
+            Filler_INF21,
+
+            //44
+            Filler_HowMany12,
+            Filler_Answer44,
+            Filler_INF44,
+
+            //50
+            Filler_Polar14,
+            Filler_Answer50,
+            Filler_INF50,
+
+            //13
+            Filler_HowMany3,
+            Filler_Answer13,
+            Filler_INF13,
+
+            //66
+            Filler_Polar18,
+            Filler_Answer66,
+            Filler_INF66,
+
+            //8
+            Filler_Did2,
+            Filler_Answer8,
+            Filler_INF8,
+
+
+
+
+            
+
+
+            // COND 1 (polar comp)
+
+            //sentence 4
+            Polar8, // first screen
+            COMP10,
+            INF20,
+
+            //sentence6
+            Polar12,
+            COMP16,
+            INF32,
+
+            // sentence 1
+            Polar2,
+            COMP1,
+            INF2,
+            
+
+            //sentence 2                     // next doesn't work
+            Polar4,
+            COMP4,
+            INF8,
+
+            //sentence 3
+            Polar6,
+            COMP7,
+            INF14,
+
+            //sentence 5
+            Polar10,
+            COMP13,
+            INF26,
+
 
             // FILLERS??
-            
-             // 5
-             Filler_HowMany1,
-             Filler_Answer5,
-             Filler_INF5,
+             // 28
+             Filler_HowMany8,
+             Filler_Answer28,
+             Filler_INF28,
  
-             //47
-             Filler_Did11,
-             Filler_Answer47,
-             Filler_INF47,
+             //56
+             Filler_Did14,
+             Filler_Answer56,
+             Filler_INF56,
  
-             //3
-             Filler_What1,
-             Filler_Answer3,
-             Filler_INF3,
+             //42
+             Filler_Polar12,
+             Filler_Answer42,
+             Filler_INF42,
  
-             // 52
-             Filler_HowMany14,
-             Filler_Answer52,
-             Filler_INF52,
+             // 72
+             Filler_Did18,
+             Filler_Answer72,
+             Filler_INF72,
  
-             //2
-             Filler_Polar2,
-             Filler_Answer2,
-             Filler_INF2,
+             //34
+             Filler_Polar10,
+             Filler_Answer34,
+             Filler_INF34,
  
-             //62
-             Filler_What16,
-             Filler_Answer62,
-             Filler_INF62,
+             //37
+             Filler_What9,
+             Filler_Answer37,
+             Filler_INF37,
  
-             //10
-             Filler_Polar4,
-             Filler_Answer10,
-             Filler_INF10,
+             //26
+             Filler_Polar8,
+             Filler_Answer26,
+             Filler_INF26,
  
-             //46
-             Filler_What12,
-             Filler_Answer46,
-             Filler_INF46,
+             //18
+             Filler_Polar6,
+             Filler_Answer18,
+             Filler_INF18,
  
-             //43
-             Filler_HowMany11,
-             Filler_Answer43,
-             Filler_INF43,
+             //58
+             Filler_Polar16,
+             Filler_Answer58,
+             Filler_INF58,
  
-             //12
-             Filler_What4,
-             Filler_Answer12,
-             Filler_INF12,
+             //41
+             Filler_Polar11,
+             Filler_Answer41,
+             Filler_INF41,
  
-             //29
-             Filler_What7,
-             Filler_Answer29,
-             Filler_INF29,
+             //33
+             Filler_Polar9,
+             Filler_Answer33,
+             Filler_INF33,
  
-             //57
-             Filler_Polar15,
-             Filler_Answer57,
-             Filler_INF57,
-            */
+             //70
+             Filler_HowMany18,
+             Filler_Answer70,
+             Filler_INF70,
 
 
             //list1,
@@ -608,7 +606,7 @@ $("document").ready(function() {
         ],
         // Here, you can specify all information for the deployment
         deploy: {
-            experimentID: "262",
+            experimentID: "265",
             serverAppURL: "https://magpie-demo.herokuapp.com/api/submit_experiment/",
             // Possible deployment methods are:
             // "debug" and "directLink"
