@@ -1,7 +1,4 @@
-// In this file you can instantiate your views
-// We here first instantiate wrapping views, then the trial views
-
-// Every experiment should start with an intro view. Here you can welcome your participants and tell them what the experiment is about
+// Introduction view
 const intro = magpieViews.view_generator("intro", {
   trials: 1,
   name: 'intro',
@@ -11,94 +8,27 @@ const intro = magpieViews.view_generator("intro", {
   buttonText: 'begin the experiment'
 });
 
-// For most tasks, you need instructions views
+// Instructions views
 const instructions = magpieViews.view_generator("instructions", {
   trials: 1,
   name: 'instructions',
   title: 'General Instructions',
-  text: `In this exeriment you'll have to imagine that you are in a courtroom. 
-  You'll be presented various sentences always in the same scheme: 
+  text: `In this experiment you will have to imagine that you are in a courtroom. 
+  You will be presented various sentences always in the same scheme: 
   <br>
-  The first sentence is the judges question to the Defendant. <br>
-  If you've finished reading it press the "next" button on the screen. 
+  The first sentence is the judges question to the defendant. <br>
+  If you have finished reading it press the "next" button on the screen. 
   <br>
-  The second sentence will be the Defendants answer, which you'll only see in Parts. 
-  You'll have to read each word by it's own and press 
+  The second sentence will be the defendants answer, which you will only see in parts. 
+  You will have to read each word by its own and press 
   the "space"-key when you are finished, to see the next word. 
   Attention: You'll only see one word at the time.<br>
   If another word appears, the last one will hide.
   <br>
-  The third sentence will be the Judges conclusion. 
-  You'll have to check on a scala of 1 to 5, how much you agree or disagree with the judges conclusion.`,
+  The third sentence will be the judges conclusion. 
+  You will have to check on a scala of 1 to 5, how much you agree or disagree with the judges conclusion.`,
   buttonText: 'go to trials'
 });
-
-/*
-const screen1_intro_customized = magpieViews.view_generator(
-	"intro", 
-	//config information
-	{
-		trials: 1,
-		name: 'item part 1',
-		text: `first sentence`,
-	},
-	{
-		stimulus_container_generator: function(config, CT) {
-			return `<div class='magpie-view'>
-				<section class="magpie-text-container">
-					<p class="magpie-view-text">${config.text}</p>
-				</section>
-			 </div>`;
-		}
-	}
-);
-
-// customized self paced reading task 
-const self_paced_reading = magpieViews.view_generator("self_paced_reading",
-	{
-		trials: trial_info_self.length,
-		name: 'self_paced_reading',
-		data: trial_info_self,
-	},
-	{
-		answer_container_generator: function (config, CT) {
-			return `<div class='magpie-view-answer-container'>
-				 <p class='magpie-view-question'>${config.data[CT].question}</p>
-					<label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
-						<input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
-				 </div>`;
-		}
-	}
-);
-
-// validity task, third screen
-const validity_task = magpieViews.view_generator('rating_scale',
-    {
-        trials: third_screen.length,
-        name: 'validity_task',
-        data: third_screen,
-    },
-    {
-		answer_container_generator: function(config, CT) {
-			return `<p class='magpie-view-question'>${config.data[CT].question}</p>
-					<div class='magpie-view-answer-container'>
-						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionLeft}</strong>
-						<label for="1" class='magpie-response-rating'>1</label>
-						<input type="radio" name="answer" id="1" value="1" />
-						<label for="2" class='magpie-response-rating'>2</label>
-						<input type="radio" name="answer" id="2" value="2" />
-						<label for="3" class='magpie-response-rating'>3</label>
-						<input type="radio" name="answer" id="3" value="3" />
-						<label for="4" class='magpie-response-rating'>4</label>
-						<input type="radio" name="answer" id="4" value="4" />
-						<label for="5" class='magpie-response-rating'>5</label>
-						<input type="radio" name="answer" id="5" value="5" />
-						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
-					</div>`;
-			}
-	},
-);
-*/
 
 //MAIN TRIALS **CORRECT ORDER**
 
@@ -111,8 +41,7 @@ const Polar1 = magpieViews.view_generator(
 	{
 		trials: info_Pol1.length,
 		name: 'Polar1',
-		data: info_Pol1
-		
+		data: info_Pol1,
 	},
 	{
 		answer_container_generator: function (config, CT) {
@@ -169,12 +98,12 @@ const Polar4 = magpieViews.view_generator(
 		data: info_Pol4,
 	},
 	{
-		stimulus_container_generator: function(config, CT) {
-			return `<div class='magpie-view'>
-				<section class="magpie-text-container">
-					<p class="magpie-view-text">${config.text}</p>
-				</section>
-			 </div>`;
+		answer_container_generator: function (config, CT) {
+        return `<div class='magpie-view-answer-container'>
+                    <p class='magpie-view-question'>${config.data[CT].question}</p>
+                    <label for='o1' class='magpie-response-buttons'>${config.data[CT].option1}</label>
+                    <input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
+                </div>`;
 		}
 	}
 );
@@ -220,7 +149,7 @@ const Polar7 = magpieViews.view_generator(
 	{
 		trials: info_Pol7.length,
 		name: 'Polar7',
-		info_Pol7,
+		data: info_Pol7,
 	},
 	{
 		answer_container_generator: function (config, CT) {
@@ -292,7 +221,7 @@ const Polar11 = magpieViews.view_generator(
 	{
 		trials: info_Pol11.length,
 		name: 'Polar11',
-		info_Pol11,
+		data: info_Pol11,
 	},
 	{
 		answer_container_generator: function (config, CT) {
@@ -539,7 +468,7 @@ const What12 = magpieViews.view_generator(
 		}
 	}
 );
-//HowMany Questions
+//How Many Questions
 const HowMany1 = magpieViews.view_generator(
 	"forced_choice", 
 	//config information
@@ -1495,7 +1424,7 @@ const INF6 = magpieViews.view_generator('rating_scale',
 						<strong class='magpie-response-rating-option magpie-view-text'>${config.data[CT].optionRight}</strong>
 					</div>`;
 			}
-	},
+	}
 );
 const INF7 = magpieViews.view_generator('rating_scale',
     {
@@ -2278,6 +2207,7 @@ const INF36 = magpieViews.view_generator('rating_scale',
 	},
 );
 
+
 // FILLER ITEMS **CORRECT**
 
 //Screen1
@@ -2515,7 +2445,6 @@ const Filler_Polar13 = magpieViews.view_generator(
                     <input type='radio' name='answer' id='o1' value=${config.data[CT].option1} />
                 </div>`;
 		}
-	}
 	}
 );
 const Filler_Polar14 = magpieViews.view_generator(
@@ -2933,7 +2862,7 @@ const Filler_What18 = magpieViews.view_generator(
 		}
 	}
 );
-//HowMany questions
+//How Many questions
 const Filler_HowMany1 = magpieViews.view_generator(
 	"forced_choice", 
 	//config information
@@ -3337,7 +3266,7 @@ const Filler_Did5 = magpieViews.view_generator(
 	{
 		trials: F_Did5.length,
 		name: 'Filler_Did5',
-		data:F_Di5,
+		data:F_Did5,
 	},
 	{
 		answer_container_generator: function (config, CT) {
@@ -3586,6 +3515,7 @@ const Filler_Did18 = magpieViews.view_generator(
 
 //Screen2
 
+// Answers
 const Filler_Answer1 = magpieViews.view_generator("self_paced_reading",
 	{
 		trials: Filler_Ans1.length,
@@ -4741,6 +4671,7 @@ const Filler_Answer72 = magpieViews.view_generator("self_paced_reading",
 
 //Screen3
 
+// Inferenes
 const Filler_INF1 = magpieViews.view_generator('rating_scale',
     {
         trials: Filler_info1.length,
@@ -5781,8 +5712,6 @@ const Filler_INF40 = magpieViews.view_generator('rating_scale',
 			}
 	},
 );
-
-
 const Filler_INF41 = magpieViews.view_generator('rating_scale',
     {
         trials: Filler_info41.length,
@@ -5809,9 +5738,6 @@ const Filler_INF41 = magpieViews.view_generator('rating_scale',
 			}
 	},
 );
-
-
-
 const Filler_INF42 = magpieViews.view_generator('rating_scale',
     {
         trials: Filler_info42.length,
@@ -6436,7 +6362,6 @@ const Filler_INF65 = magpieViews.view_generator('rating_scale',
 			}
 	},
 );
-
 const Filler_INF66 = magpieViews.view_generator('rating_scale',
     {
         trials: Filler_info67.length,
@@ -6463,8 +6388,6 @@ const Filler_INF66 = magpieViews.view_generator('rating_scale',
 			}
 	},
 );
-
-
 const Filler_INF67 = magpieViews.view_generator('rating_scale',
     {
         trials: Filler_info67.length,
