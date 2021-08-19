@@ -222,7 +222,7 @@ const info_HM12 = [
     }
 ];
 
-// Screen 2
+//Screen 2
 
 //SUP Answers
 const trial_info_SUP1 = [
@@ -808,7 +808,7 @@ const trial_info_INF36 = [
 ];
 
 
-// FILLER ITEMS **CORRECT**
+//FILLER ITEMS **CORRECT**
 
 //Screen1
 
@@ -921,7 +921,7 @@ const F_Polar18 = [
 		question: "Did you hear nearly ten cars on the street?",
      }
 ];
-// What Questions
+//What Questions
 const F_What1 = [
     {
         option1: "Next",
@@ -1139,7 +1139,7 @@ const F_HM18 = [
 		question: "How many cars did you hear on the street?",
     }
 ];
-// Did Questions
+//Did Questions
 const F_Did1 = [
     {
         option1: "Next",
@@ -1249,7 +1249,7 @@ const F_Did18 = [
     }
 ];
 
-// Screen 2
+//Screen 2
 
 //Answers
 const Filler_Ans1= [

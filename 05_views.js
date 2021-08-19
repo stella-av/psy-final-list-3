@@ -8,7 +8,7 @@ const intro = magpieViews.view_generator("intro", {
   buttonText: 'begin the experiment'
 });
 
-// Instructions views
+// Instructions view
 const instructions = magpieViews.view_generator("instructions", {
   trials: 1,
   name: 'instructions',
@@ -1269,7 +1269,7 @@ const COMP18 = magpieViews.view_generator("self_paced_reading",
 
 //Screen 3
 
-// Inferences
+//Inferences
 const INF1 = magpieViews.view_generator('rating_scale',
     {
         trials: trial_info_INF1.length,
@@ -3515,7 +3515,7 @@ const Filler_Did18 = magpieViews.view_generator(
 
 //Screen2
 
-// Answers
+//Answers
 const Filler_Answer1 = magpieViews.view_generator("self_paced_reading",
 	{
 		trials: Filler_Ans1.length,
@@ -4671,7 +4671,7 @@ const Filler_Answer72 = magpieViews.view_generator("self_paced_reading",
 
 //Screen3
 
-// Inferenes
+//Inferenes
 const Filler_INF1 = magpieViews.view_generator('rating_scale',
     {
         trials: Filler_info1.length,
