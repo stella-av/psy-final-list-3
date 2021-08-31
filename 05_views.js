@@ -36,7 +36,7 @@ const instructions = magpieViews.view_generator("instructions", {
 
 //Screen1
 
-//Polar questions
+//Polar Questions
 const Polar1 = magpieViews.view_generator(
 	"forced_choice", 
 	//config information
@@ -253,7 +253,7 @@ const Polar12 = magpieViews.view_generator(
 		}
 	}
 );
-//What Quesions
+//What Questions
 const What1 = magpieViews.view_generator(
 	"forced_choice", 
 	//config information

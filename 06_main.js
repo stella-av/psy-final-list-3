@@ -30,7 +30,7 @@ $("document").ready(function() {
             COMP6,
             INF12,
 
-            // sentence 4
+            //sentence 4
             HowMany8,
             COMP12,
             INF24,
@@ -52,7 +52,7 @@ $("document").ready(function() {
 
             // FILLERS
             
-            // 30
+            //30
             Filler_What8,
             Filler_Answer28,
             Filler_INF28,
@@ -67,7 +67,7 @@ $("document").ready(function() {
             Filler_Answer21,
             Filler_INF21,
  
-            // 40
+            //40
             Filler_Did10,
             Filler_Answer40,
             Filler_INF40,
@@ -125,7 +125,7 @@ $("document").ready(function() {
             SUP9,
             INF17,
 
-            // sentence 2
+            //sentence 2
             HowMany3,
             SUP6,
             INF11,
@@ -147,7 +147,7 @@ $("document").ready(function() {
 
             // FILLERS
             
-            // 5
+            //5
             Filler_HowMany1,
             Filler_Answer5,
             Filler_INF5,
@@ -162,7 +162,7 @@ $("document").ready(function() {
             Filler_Answer3,
             Filler_INF3,
  
-            // 52
+            //52
             Filler_HowMany14,
             Filler_Answer54,
             Filler_INF54,
@@ -216,12 +216,12 @@ $("document").ready(function() {
             SUP2,
             INF3,
 
-            //sentence4
+            //sentence 4
             What7,
             SUP11,
             INF21,
 
-            // sentence 3
+            //sentence 3
             What5,
             SUP8,
             INF15,
@@ -243,7 +243,7 @@ $("document").ready(function() {
 
             // FILLERS
 
-            // 51
+            //51
             Filler_HowMany13,
             Filler_Answer53,
             Filler_INF53,
@@ -258,7 +258,7 @@ $("document").ready(function() {
             Filler_Answer29,
             Filler_INF29,
 
-            // 11
+            //11
             Filler_What3,
             Filler_Answer11,
             Filler_INF11,
@@ -316,7 +316,7 @@ $("document").ready(function() {
             SUP13,
             INF25,
  
-            // sentence 6
+            //sentence 6
             Polar11,
             SUP16,
             INF31,
@@ -338,7 +338,7 @@ $("document").ready(function() {
 
             // FILLERS
             
-            // 63
+            //63
             Filler_Did15,
             Filler_Answer63,
             Filler_INF63,
@@ -353,7 +353,7 @@ $("document").ready(function() {
             Filler_Answer7,
             Filler_INF7,
  
-            // 16
+            //16
             Filler_Did4,
             Filler_Answer16,
             Filler_INF16,
@@ -399,19 +399,19 @@ $("document").ready(function() {
             Filler_INF9,
 
             
-            // CONDITION 3(What + COMP)
+            // CONDITION 3 (What + COMP)
 
             //sentence 3
             What6, 
             COMP8,
             INF16,
 
-            //sentence1
+            //sentence 1
             What2,
             COMP2,
             INF4,
             
-            // sentence 5
+            //sentence 5
             What10,
             COMP14,
             INF28,
@@ -421,7 +421,7 @@ $("document").ready(function() {
             COMP11,
             INF22,
 
-            //sentence2
+            //sentence 2
             What4,
             COMP5,
             INF10,
@@ -433,7 +433,7 @@ $("document").ready(function() {
 
             // FILLER
 
-            // 54
+            //54
             Filler_What14,
             Filler_Answer52,
             Filler_INF52,
@@ -448,7 +448,7 @@ $("document").ready(function() {
             Filler_Answer17,
             Filler_INF17,
 
-            // 23
+            //23
             Filler_Did5,
             Filler_Answer23,
             Filler_INF23,
@@ -501,12 +501,12 @@ $("document").ready(function() {
             COMP10,
             INF20,
 
-            //sentence6
+            //sentence 6
             Polar12,
             COMP16,
             INF32,
 
-            // sentence 1
+            //sentence 1
             Polar2,
             COMP1,
             INF2,
@@ -528,7 +528,7 @@ $("document").ready(function() {
 
             // FILLERS
 
-            // 28
+            //28
             Filler_HowMany8,
             Filler_Answer30,             
             Filler_INF30,
@@ -543,7 +543,7 @@ $("document").ready(function() {
             Filler_Answer42,
             Filler_INF42,
  
-            // 72
+            //72
             Filler_Did18,
             Filler_Answer72,
             Filler_INF72,
@@ -606,576 +606,6 @@ $("document").ready(function() {
         progress_bar: {
             in: [
                 // list the view-names of the views for which you want a progress bar
-                intro.name,
-                instructions.name,
-                HowMany12.name, 
-            COMP18.name,
-            INF36.name,
-
-            //sentence 2
-            HowMany4.name,
-            COMP6.name,
-            INF12,
-
-            // sentence 4
-            HowMany8,
-            COMP12,
-            INF24,
-
-            //sentence 5
-            HowMany10,
-            COMP15,
-            INF30,
-
-            //sentence 1
-            HowMany2,
-            COMP3,
-            INF6,
-
-            //sentence 3
-            HowMany6,
-            COMP9,
-            INF18,
-
-            // FILLERS
-            
-            // 30
-            Filler_What8,
-            Filler_Answer28,
-            Filler_INF28,
- 
-            //39
-            Filler_Did9,
-            Filler_Answer39,
-            Filler_INF39,
- 
-            //19
-            Filler_HowMany5,
-            Filler_Answer21,
-            Filler_INF21,
- 
-            // 40
-            Filler_Did10,
-            Filler_Answer40,
-            Filler_INF40,
- 
-            //24
-            Filler_Did6,
-            Filler_Answer24,
-            Filler_INF24,
- 
-            //61
-            Filler_What15,
-            Filler_Answer59,
-            Filler_INF59,
- 
-            //53
-            Filler_What13,
-            Filler_Answer51,
-            Filler_INF51,
- 
-            //1
-            Filler_Polar1,
-            Filler_Answer1,
-            Filler_INF1,
- 
-            //35
-            Filler_HowMany9,
-            Filler_Answer37,
-            Filler_INF37,
- 
-            //15
-            Filler_Did3,
-            Filler_Answer15,             
-            Filler_INF15,
- 
-            //22
-            Filler_What6,
-            Filler_Answer20,
-            Filler_INF20,
- 
-            //38
-            Filler_What10,
-            Filler_Answer36,
-            Filler_INF36,
-
-         
-            // CONDITION 6 (How Many + SUP)
-             
-            //sentence 5
-            HowMany9, 
-            SUP15,
-            INF29,
-
-            //sentence 3
-            HowMany5,
-            SUP9,
-            INF17,
-
-            // sentence 2
-            HowMany3,
-            SUP6,
-            INF11,
-
-            //sentence 1
-            HowMany1,
-            SUP3,
-            INF5,
-
-            //sentence 6
-            HowMany11,
-            SUP18,
-            INF35,
-
-            //sentence 4
-            HowMany7,
-            SUP12,
-            INF23,
-
-            // FILLERS
-            
-            // 5
-            Filler_HowMany1,
-            Filler_Answer5,
-            Filler_INF5,
- 
-            //47
-            Filler_Did11,
-            Filler_Answer47,
-            Filler_INF47,
- 
-            //3
-            Filler_What1,
-            Filler_Answer3,
-            Filler_INF3,
- 
-            // 52
-            Filler_HowMany14,
-            Filler_Answer54,
-            Filler_INF54,
- 
-            //2
-            Filler_Polar2,
-            Filler_Answer2,
-            Filler_INF2,
- 
-            //62
-            Filler_What16,
-            Filler_Answer60,
-            Filler_INF60,
-
- 
-            //10
-            Filler_Polar4,
-            Filler_Answer10,
-            Filler_INF10,
- 
-            //46
-            Filler_What12,
-            Filler_Answer44,
-            Filler_INF44,
-
-            //43
-            Filler_HowMany11,
-            Filler_Answer45,
-            Filler_INF45,
-
-            //12
-            Filler_What4,
-            Filler_Answer12,
-            Filler_INF12,
- 
-            //29
-            Filler_What7,
-            Filler_Answer27,
-            Filler_INF27,
- 
-            //57
-            Filler_Polar15,
-            Filler_Answer57,
-            Filler_INF57,
-            
-
-            // CONDITION 4 (What + SUP)
-
-            //sentence 1
-            What1,
-            SUP2,
-            INF3,
-
-            //sentence4
-            What7,
-            SUP11,
-            INF21,
-
-            // sentence 3
-            What5,
-            SUP8,
-            INF15,
-
-            //sentence 6
-            What11,
-            SUP17,
-            INF33,
-
-            //sentence 5
-            What9,
-            SUP14,
-            INF27,
-
-            //sentence 2
-            What3,
-            SUP5,
-            INF9,
-
-            // FILLERS
-
-            // 51
-            Filler_HowMany13,
-            Filler_Answer53,
-            Filler_INF53,
-
-            //25
-            Filler_Polar7,
-            Filler_Answer25,
-            Filler_INF25,
-
-            //27
-            Filler_HowMany7,
-            Filler_Answer29,
-            Filler_INF29,
-
-            // 11
-            Filler_What3,
-            Filler_Answer11,
-            Filler_INF11,
-
-            //64
-            Filler_Did16,
-            Filler_Answer64,
-            Filler_INF64,
-
-            //31
-            Filler_Did7,
-            Filler_Answer31,
-            Filler_INF31,
-
-            //32
-            Filler_Did8,
-            Filler_Answer32,
-            Filler_INF32,
-
-            //67
-            Filler_HowMany17,
-            Filler_Answer69,
-            Filler_INF69,
-
-            //60
-            Filler_HowMany16,
-            Filler_Answer62,
-            Filler_INF62,
-
-            //49
-            Filler_Polar13,
-            Filler_Answer49,
-            Filler_INF49,
-
-            //6
-            Filler_HowMany2,
-            Filler_Answer6,
-            Filler_INF6,
-
-            //59
-            Filler_HowMany15,
-            Filler_Answer61,
-            Filler_INF61,
-
-
-            // CONDITION 2 (Polar + SUP)
-
-            //sentence 2
-            Polar3,
-            SUP4,
-            INF7,
- 
-            //sentence 5
-            Polar9,
-            SUP13,
-            INF25,
- 
-            // sentence 6
-            Polar11,
-            SUP16,
-            INF31,
- 
-            //sentence 3
-            Polar5,
-            SUP7,
-            INF13,
- 
-            //sentence 4
-            Polar7,
-            SUP10,
-            INF19,
- 
-            //sentence 1
-            Polar1,
-            SUP1,
-            INF1,
-
-            // FILLERS
-            
-            // 63
-            Filler_Did15,
-            Filler_Answer63,
-            Filler_INF63,
- 
-            //45
-            Filler_What11,
-            Filler_Answer43,
-            Filler_INF43,
- 
-            //7
-            Filler_Did1,
-            Filler_Answer7,
-            Filler_INF7,
- 
-            // 16
-            Filler_Did4,
-            Filler_Answer16,
-            Filler_INF16,
- 
-            //4
-            Filler_What2,
-            Filler_Answer4,
-            Filler_INF4,
- 
-            //69
-            Filler_What17,
-            Filler_Answer67,
-            Filler_INF67,
- 
-            //68
-            Filler_HowMany18,
-            Filler_Answer70,
-            Filler_INF70,
- 
-            //65
-            Filler_Polar17,
-            Filler_Answer65,
-            Filler_INF65,
- 
-            //71
-            Filler_Did17,
-            Filler_Answer71,
-            Filler_INF71,
-
-            //36
-            Filler_HowMany10,
-            Filler_Answer38,
-            Filler_INF38,
- 
-            //48
-            Filler_Did12,
-            Filler_Answer48,
-            Filler_INF48,
- 
-            //9
-            Filler_Polar3,
-            Filler_Answer9,
-            Filler_INF9,
-
-            
-            // CONDITION 3(What + COMP)
-
-            //sentence 3
-            What6, 
-            COMP8,
-            INF16,
-
-            //sentence1
-            What2,
-            COMP2,
-            INF4,
-            
-            // sentence 5
-            What10,
-            COMP14,
-            INF28,
-
-            //sentence 4
-            What8,
-            COMP11,
-            INF22,
-
-            //sentence2
-            What4,
-            COMP5,
-            INF10,
-
-            //sentence 6
-            What12,
-            COMP17,
-            INF34,
-
-            // FILLER
-
-            // 54
-            Filler_What14,
-            Filler_Answer52,
-            Filler_INF52,
-
-            //20
-            Filler_HowMany6,
-            Filler_Answer22,
-            Filler_INF22,
-
-            //17
-            Filler_Polar5,
-            Filler_Answer17,
-            Filler_INF17,
-
-            // 23
-            Filler_Did5,
-            Filler_Answer23,
-            Filler_INF23,
-
-            //14
-            Filler_HowMany4,
-            Filler_Answer14,
-            Filler_INF14,
-
-            //55
-            Filler_Did13,
-            Filler_Answer55,
-            Filler_INF55,
-
-            //21
-            Filler_What5,
-            Filler_Answer19,
-            Filler_INF19,
-
-            //44
-            Filler_HowMany12,
-            Filler_Answer46,
-            Filler_INF46,
-
-            //50
-            Filler_Polar14,
-            Filler_Answer50,
-            Filler_INF50,
-
-            //13
-            Filler_HowMany3,
-            Filler_Answer13,
-            Filler_INF13,
-
-            //66
-            Filler_Polar18,
-            Filler_Answer66,
-            Filler_INF66,
-
-            //8
-            Filler_Did2,
-            Filler_Answer8,
-            Filler_INF8,
-
-
-            // CONDITION 1 (Polar + COMP)
-
-            //sentence 4
-            Polar8,
-            COMP10,
-            INF20,
-
-            //sentence6
-            Polar12,
-            COMP16,
-            INF32,
-
-            // sentence 1
-            Polar2,
-            COMP1,
-            INF2,
-            
-            //sentence 2                  
-            Polar4,
-            COMP4,
-            INF8,
-
-            //sentence 3
-            Polar6,
-            COMP7,
-            INF14,
-
-            //sentence 5
-            Polar10,
-            COMP13,
-            INF26,
-
-            // FILLERS
-
-            // 28
-            Filler_HowMany8,
-            Filler_Answer30,             
-            Filler_INF30,
-
-            //56
-            Filler_Did14,
-            Filler_Answer56,
-            Filler_INF56,
- 
-            //42
-            Filler_Polar12,
-            Filler_Answer42,
-            Filler_INF42,
- 
-            // 72
-            Filler_Did18,
-            Filler_Answer72,
-            Filler_INF72,
- 
-            //34
-            Filler_Polar10,
-            Filler_Answer34,
-            Filler_INF34,
- 
-            //37
-            Filler_What9,
-            Filler_Answer35,
-            Filler_INF35,
- 
-            //26
-            Filler_Polar8,
-            Filler_Answer26,
-            Filler_INF26,
- 
-            //18
-            Filler_Polar6,
-            Filler_Answer18,             
-            Filler_INF18,
-
-            //58
-            Filler_Polar16,
-            Filler_Answer58,
-            Filler_INF58,
- 
-            //41
-            Filler_Polar11,
-            Filler_Answer41,
-            Filler_INF41,
- 
-            //33
-            Filler_Polar9,
-            Filler_Answer33,
-            Filler_INF33,
- 
-            //70
-            Filler_What18,
-            Filler_Answer68,
-            Filler_INF68,
-                post_test.name,
-                thanks.name,
             ],
              // Possible styles are "default", "separate" and "chunks"
             style: "default",
